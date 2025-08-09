@@ -1,0 +1,15 @@
+{
+  "name": "emperor-club-verification",
+  "version": "1.0.0",
+  "description": "ENS subdomain verification API for Collab.land ERC-1155 integration",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/ens-ids.js"
+  },
+  "dependencies": {
+    "ethers": "^6.15.0",
+    "graphql-request": "^7.2.0"
+  }
+}
